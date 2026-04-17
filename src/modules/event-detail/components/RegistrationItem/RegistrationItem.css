@@ -1,0 +1,38 @@
+.registration-item {
+  list-style: none;
+  padding: 16px 20px;
+  border: 1px solid #151b28;
+  border-radius: 12px;
+  background: #0d121a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration-item strong {
+  display: block;
+  color: #f5efe4;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.registration-item p {
+  margin: 4px 0 0;
+  color: #4e5663;
+  font-size: 12px;
+}
+
+.registration-item__status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: lowercase;
+  border: 1px solid rgba(76, 175, 104, 0.3);
+  color: #4caf68;
+}
+
+.registration-item__status--pending {
+  border-color: rgba(210, 169, 94, 0.3);
+  color: #d2a95e;
+}

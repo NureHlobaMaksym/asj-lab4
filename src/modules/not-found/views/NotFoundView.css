@@ -1,0 +1,19 @@
+.not-found-view {
+  min-height: 320px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.not-found-view h1 {
+  margin: 0;
+  font-size: 56px;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #f5efe4;
+}
+
+.not-found-view p {
+  margin: 0;
+  color: #667081;
+}

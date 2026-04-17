@@ -1,0 +1,32 @@
+.toast-portal {
+  position: fixed;
+  right: 22px;
+  bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 10px 12px;
+  font-size: 13px;
+  z-index: 90;
+}
+
+.toast-portal--success {
+  background: #0f1e15;
+  color: #8ed9ab;
+  border-color: #29543a;
+}
+
+.toast-portal--error {
+  background: #281213;
+  color: #ef9c9c;
+  border-color: #713235;
+}
+
+.toast-fade-enter-active,
+.toast-fade-leave-active {
+  transition: opacity 0.18s ease;
+}
+
+.toast-fade-enter-from,
+.toast-fade-leave-to {
+  opacity: 0;
+}
